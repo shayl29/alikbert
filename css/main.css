@@ -2901,3 +2901,367 @@ body.mobile-nav-active #mobile-nav-toggle {
 .switch-wrap p {
   margin: 0;
 }
+
+/* ----------- RTL ----------- */
+
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+html[dir="rtl"] .ml-0 {
+  margin-right: 0 !important;
+}
+
+html[dir="rtl"] .ml-5 {
+  margin-right: 5px !important;
+}
+
+html[dir="rtl"]  .ml-10 {
+  margin-right: 10px;
+}
+
+html[dir="rtl"]  .ml-15 {
+  margin-right: 15px;
+}
+
+html[dir="rtl"]  .ml-20 {
+  margin-right: 20px;
+}
+
+html[dir="rtl"]  .ml-30 {
+  margin-right: 30px;
+}
+
+html[dir="rtl"]  .ml-50 {
+  margin-right: 50px;
+}
+
+html[dir="rtl"] .mr-0 {
+  margin-left: 0 !important;
+}
+
+html[dir="rtl"] .mr-5 {
+  margin-left: 5px !important;
+}
+
+html[dir="rtl"] .mr-15 {
+  margin-left: 15px;
+}
+
+html[dir="rtl"] .mr-10 {
+  margin-left: 10px;
+}
+
+html[dir="rtl"] .mr-20 {
+  margin-left: 20px;
+}
+
+html[dir="rtl"] .mr-30 {
+  margin-left: 30px;
+}
+
+html[dir="rtl"] .mr-50 {
+  margin-left: 50px;
+}
+
+html[dir="rtl"] .pr-30 {
+  padding-left: 30px;
+}
+
+html[dir="rtl"] .pl-30 {
+  padding-right: 30px;
+}
+
+html[dir="rtl"] .pl-90 {
+  padding-right: 90px;
+}
+
+html[dir="rtl"] .float-left {
+  float: right;
+}
+
+html[dir="rtl"] .float-right {
+  float: left;
+}
+
+html[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+html[dir="rtl"] .text-rigth {
+  text-align: left;
+}
+
+html[dir="rtl"]  .flex-left {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+html[dir="rtl"]  .flex-right {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  -moz-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+html[dir="rtl"] .button-group-area .genric-btn {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+html[dir="rtl"] .button-group-area .genric-btn:last-child {
+  margin-left: 0;
+}
+
+html[dir="rtl"] .genric-btn.arrow span {
+  margin-right: 10px;
+}
+
+html[dir="rtl"] .generic-blockquote {
+  padding: 30px 30px 30px 50px;
+  border-right: 2px solid #fab700;
+}
+
+html[dir="rtl"] .progress-table .serial {
+  padding-right: 30px;
+}
+
+html[dir="rtl"] .progress-table .percentage {
+  padding-left: 50px;
+}
+
+html[dir="rtl"] .progress-table .table-row .country img {
+  margin-left: 15px;
+}
+
+html[dir="rtl"] .unordered-list li {
+  padding-right: 30px;
+}
+
+html[dir="rtl"] .unordered-list li:before {
+  right: 0;
+}
+
+html[dir="rtl"] .ordered-list {
+  margin-right: 30px;
+}
+
+html[dir="rtl"] .ordered-list-alpha li {
+  margin-right: 30px;
+}
+
+html[dir="rtl"] .ordered-list-roman li {
+  margin-right: 30px;
+}
+
+html[dir="rtl"] .input-group-icon .icon {
+  right: 20px;
+}
+
+html[dir="rtl"] .input-group-icon .single-input {
+  padding-right: 45px;
+}
+
+html[dir="rtl"] .default-switch input:checked + label {
+  right: 19px;
+}
+
+html[dir="rtl"] .primary-switch input:checked + label:after {
+  right: 19px;
+}
+
+html[dir="rtl"] .confirm-switch input:checked + label:after {
+  right: 19px;
+}
+
+html[dir="rtl"] .default-select .nice-select {
+  padding-right: 20px;
+  padding-left: 40px;
+}
+
+html[dir="rtl"] .default-select .nice-select .list .option {
+  padding-right: 20px;
+}
+
+html[dir="rtl"] .default-select .current {
+  margin-left: 50px;
+}
+
+html[dir="rtl"] .default-select .nice-select::after {
+  left: 20px;
+}
+
+html[dir="rtl"] .form-select .nice-select {
+  padding-right: 45px;
+  padding-left: 40px;
+}
+
+html[dir="rtl"] .form-select .nice-select .list .option {
+  padding-right: 45px;
+}
+
+html[dir="rtl"] .form-select .current {
+  margin-left: 50px;
+}
+
+html[dir="rtl"] .form-select .nice-select::after {
+  left: 20px;
+}
+
+@media (max-width: 673px) {
+  html[dir="rtl"] #logo {
+    margin-right: 20px;
+  }
+}
+
+html[dir="rtl"] #header #logo h1 a, #header #logo h1 a:hover {
+  padding-right: 10px;
+  border-right: 4px solid #fab700;
+}
+
+html[dir="rtl"] .nav-menu ul {
+  right: 0;
+}
+
+html[dir="rtl"] .nav-menu > li {
+  float: right;
+}
+
+html[dir="rtl"] .nav-menu ul ul {
+  right: 100%;
+}
+
+html[dir="rtl"] .nav-menu ul li {
+  text-align: right;
+}
+
+/* Nav Menu Arrows */
+html[dir="rtl"] .sf-arrows .sf-with-ul {
+  padding-left: 30px;
+}
+
+html[dir="rtl"] .sf-arrows .sf-with-ul:after {
+  left: 15px;
+}
+
+@media (min-width: 1024px) {
+  html[dir="rtl"] #nav-menu-container {
+    padding-left: 60px;
+  }
+}
+
+html[dir="rtl"] .nav-menu > li {
+  margin-right: 10px;
+}
+
+html[dir="rtl"] #mobile-nav-toggle {
+  left: 15px;
+}
+
+html[dir="rtl"] #mobile-nav {
+  right: -260px;
+}
+
+html[dir="rtl"] #mobile-nav ul li a {
+  padding: 10px 15px 10px 22px;
+}
+
+html[dir="rtl"] #mobile-nav ul li li {
+  padding-right: 30px;
+}
+
+html[dir="rtl"] #mobile-nav ul .menu-has-children i {
+  left: 0;
+}
+
+html[dir="rtl"] #mobile-body-overly {
+  right: 0;
+}
+
+html[dir="rtl"] body.mobile-nav-active #mobile-nav {
+  right: 0;
+}
+
+html[dir="rtl"] .banner-area .primary-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+html[dir="rtl"] .primary-btn {
+  padding-left: 60px;
+  padding-right: 30px;
+}
+
+html[dir="rtl"] .primary-btn span {
+  left: -108px;
+  right: 0;
+}
+
+html[dir="rtl"] .primary-btn:hover span {
+  left: -150px;
+  right: 0;
+}
+
+html[dir="rtl"] .projects-area .owl-dots:after {
+  left: 50%;
+}
+
+html[dir="rtl"] .single-service:hover {
+  box-shadow: 14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
+}
+
+html[dir="rtl"] .single-service h4 .lnr {
+  margin-left: 15px;
+}
+
+html[dir="rtl"] .testimonial-area .owl-controls {
+  right: 101%;
+}
+
+@media (max-width: 1024px) {
+  html[dir="rtl"] .testimonial-area .owl-controls {
+    right: 0;
+  }
+}
+
+html[dir="rtl"] .testimonial-area .lnr-arrow-up, .testimonial-area .lnr-arrow-down {
+  box-shadow: 14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
+}
+
+html[dir="rtl"] .single-testimonial .thumb {
+  margin-left: 30px;
+}
+
+html[dir="rtl"] .blog-right .details {
+  padding-right: 20px;
+}
+
+html[dir="rtl"] .footer-area .genric-btn.arrow span {
+  margin-right: 0px;
+}
+
+html[dir="rtl"] .footer-area .footer-bottom .footer-social {
+  text-align: left;
+}
+
+@media (max-width: 991.98px) {
+  html[dir="rtl"] .footer-area .footer-bottom .footer-social {
+    text-align: right;
+  }
+}
+
+@media (max-width: 768px) {
+  html[dir="rtl"] .footer-area .single-footer-widget .newsletter .primary-btn {
+    left: 2% !important;
+    left: 0;
+  }
+}
+
+/* Overrides */
+select#language-selector .option[value="English"] {
+  background-image: url('img/001-united-kingdom.png');
+}
