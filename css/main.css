@@ -2904,7 +2904,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* ----------- RTL ----------- */
 
-body[dir="rtl"] body {
+body[dir="rtl"] {
   text-align: right;
 }
 
@@ -3248,6 +3248,10 @@ body[dir="rtl"] .footer-area .footer-bottom .footer-social {
   text-align: left;
 }
 
+body[dir="rtl"] header {
+  text-align: right;
+}
+
 body[dir="rtl"] footer {
   text-align: right;
 }
@@ -3261,9 +3265,4 @@ body[dir="rtl"] .footer-area .footer-bottom .footer-social {
     left: 2% !important;
     left: 0;
   }
-}
-
-/* Overrides */
-select#language-selector .option[value="English"] {
-  background-image: url('img/001-united-kingdom.png');
 }

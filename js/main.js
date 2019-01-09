@@ -82,6 +82,8 @@ $(document).ready(function(){
     $("#mobile-nav, #mobile-nav-toggle").hide();
   }
 
+  $('.default-select.nice-select').niceSelect();
+
   $('#language-selector').change(function(event) {
     var selectedLanguage = event.target.value;
     $("body").attr('dir', 'ltr').attr('lang', 'en');
