@@ -84,11 +84,11 @@ $(document).ready(function(){
 
   $('#language-selector').change(function(event) {
     var selectedLanguage = event.target.value;
-    $("html").attr('dir', 'ltr');
+    $("body").attr('dir', 'ltr').attr('lang', 'en');
     $(".lnr.lnr-arrow-left").removeClass('lnr-arrow-left').addClass('lnr-arrow-right');
-    
+
     if (selectedLanguage === 'Hebrew') {
-      $("html").attr('dir', 'rtl');
+      $("body").attr('dir', 'rtl').attr('lang', 'he');
       $(".lnr.lnr-arrow-right").removeClass('lnr-arrow-right').addClass('lnr-arrow-left');
     }
     
