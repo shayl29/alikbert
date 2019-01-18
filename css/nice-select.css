@@ -39,7 +39,6 @@
     margin-top: -4px;
     pointer-events: none;
     position: absolute;
-    right: 12px;
     top: 50%;
     -webkit-transform-origin: 66% 66%;
         -ms-transform-origin: 66% 66%;
@@ -98,7 +97,6 @@
     pointer-events: none;
     position: absolute;
     top: 100%;
-    left: 0;
     -webkit-transform-origin: 50% 0;
         -ms-transform-origin: 50% 0;
             transform-origin: 50% 0;
@@ -108,6 +106,12 @@
     -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
     z-index: 9; }
+  body[dir="rtl"] .nice-select .list {
+    right: 0;
+  }
+  body[dir="ltr"] .nice-select .list {
+    left: 0;
+  }
     .nice-select .list:hover .option:not(:hover) {
       background-color: transparent !important; }
   .nice-select .option {
@@ -136,3 +140,11 @@
 
 .no-csspointerevents .nice-select.open .list {
   display: block; }
+
+  body[dir="rtl"] .nice-select:after {
+    left: 12px;
+  }
+
+  body[dir="ltr"] .nice-select:after {
+    right: 12px;
+  }
